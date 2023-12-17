@@ -1,6 +1,6 @@
 var mongoose = require("mongoose");
 var dbURI =
-  "mongodb+srv://mekan32:<password>@mekanbul.a2excj8.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb+srv://mekan32:mekan32@mekanbul.a2excj8.mongodb.net/?retryWrites=true&w=majority";
 mongoose.connect(dbURI);
 mongoose.connection.on("connected", function () {
   console.log(dbURI + "bağlandı");
